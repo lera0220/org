@@ -13,7 +13,7 @@ const Footer = () => {
                 <img src="../img/linkedin_icon.png" alt='Linkedin' />
             </a>
         </div>
-        <img src='/img/Logo.png' alt='org' className="logofooter"/>
+        <img src='/img/logo.png' alt='org' className="logofooter"/>
         <strong>Desarrollado por Luigui Rodriguez</strong>
         </div>
     </footer>
