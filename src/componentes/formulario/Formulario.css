@@ -1,0 +1,54 @@
+.formulario{
+    display:flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    /* width: 80%; */
+    flex-wrap: nowrap;
+    
+}
+.formulario form{
+    background-color: #F7F7F7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 8px 30px;
+}
+.formulario h2{
+    color: #212121;
+  /*  height: 43px;
+    width: 729px;*/
+   
+
+}
+.CampoTexto placeholder{
+    color: #A4A4A4;
+}
+
+
+@media (max-width:700px) {
+.formulario{
+    display:block;
+    max-width: 100%;
+    margin-top:1rem;
+    word-wrap: break-word;
+   
+}    
+.formulario form{
+    max-width:100%;
+    border-radius: 0%;   
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.formulario h2{
+    color: #212121;
+    height: auto;
+    width: auto;
+   font-size: 20px;
+   text-align: center;
+ 
+}
+.formulario button{
+    width: 6rem;
+    align-self: center;
+}
+}

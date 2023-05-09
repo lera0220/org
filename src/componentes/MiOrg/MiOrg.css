@@ -1,0 +1,50 @@
+.orgSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #6278F7;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #6278F7;;
+}
+
+.orgSection img{
+    position: absolute;
+    right: 15%;
+    cursor: pointer;
+}
+@media (max-width:350px) {
+    .title{
+        font-size: 1rem;
+        padding-bottom: 12px;
+    }
+    .orgSection img{
+        display: block;
+        width: 20%;  
+        position: initial;
+        margin: 0;
+        
+    }
+    .orgSection{
+        flex-direction: column;
+
+        
+    }
+}
+@media ((min-width:351px) and (max-width:700px) ){
+    .title{
+        font-size: 1.5rem;
+    }
+    .orgSection img{
+        width: 15%;  
+        position: initial;
+        margin: 0;
+        
+    }
+    
+}

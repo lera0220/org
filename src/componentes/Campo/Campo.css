@@ -1,0 +1,45 @@
+.campo{
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.campolabel{
+font-size: 18px;
+font-weight: 600;
+display: block;
+margin-bottom: 8px;
+
+
+}
+.campo input{
+font-family: 'Montserrat', sans-serif;
+width: 100%;
+font-size: 16px;
+font-weight: 400;
+background: #FFFFFF;
+mix-blend-mode: normal;
+box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+border-radius: 0px;
+border: none;
+padding: 30px 20px;
+outline-color:#6278f7;
+color: #A4A4A4;
+box-sizing: border-box;
+}
+.campo input ::placeholder{
+    color:#AFAFAF ;
+}
+::placeholder{color: #A4A4A4}
+
+.campo-color input{
+    height: 40px;
+    padding: 5px 20px;
+}
+@media (max-width:700px) {
+    .campo label{
+        font-size: 1rem;
+    }
+    .campo input{
+        padding: 15px 10px;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,46 @@
+.footer{
+    max-width: 100%;
+
+    box-sizing: border-box;
+}
+.footerContenido{
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.redes{
+    display: flex;
+}
+
+.redes img{
+    width: 60%;
+    padding: 0px 15px;
+}
+@media (max-width:700px) {
+    .footer{
+        background-size: cover;
+    }
+    .footerContenido{
+        max-width: 100%;
+        justify-content: space-evenly;
+         }
+   
+    .footer strong{
+        display: none;
+    }
+    .footer .logofooter{
+        width: 30%;
+    }
+    
+    
+}
+

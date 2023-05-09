@@ -1,0 +1,35 @@
+.lista-opciones{
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.lista-opciones label{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.lista-opciones select{
+    width:100%;
+    font-size: 16px;
+    font-weight: 400;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 0px;
+    border: none;
+    padding: 30px 20px;
+    outline-color:#6278f7;
+    padding: 30px 20px;
+    color: #A4A4A4;
+    
+}
+@media (max-width:700px) {
+    .lista-opciones label{
+        font-size: 1rem;
+    }
+    .lista-opciones select{
+        padding: 15px 10px;
+    }
+    
+}
